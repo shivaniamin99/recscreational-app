@@ -1,0 +1,29 @@
+{
+  "name": "recscreational",
+  "version": "1.0.0",
+  "description": "Recommendations web app built using React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \" cd backend && npm start\" \"cd frontend && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivaniamin99/recscreational-app.git"
+  },
+  "keywords": [
+    "React",
+    "JavaScript",
+    "Web",
+    "development"
+  ],
+  "author": "Shivani Amin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivaniamin99/recscreational-app/issues"
+  },
+  "homepage": "https://github.com/shivaniamin99/recscreational-app#readme",
+  "dependencies": {
+    "concurrently": "^6.2.2"
+  }
+}
